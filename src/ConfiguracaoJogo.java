@@ -44,7 +44,7 @@ public class ConfiguracaoJogo {
             autoDLC = propriedades.getProperty("AutoDLC");
             buildId = propriedades.getProperty("BuildId");
             dlcName = propriedades.getProperty("DLCName");
-            updateDB = propriedades.getProperty("UpdateB");
+            updateDB = propriedades.getProperty("UpdateDB");
             signature = propriedades.getProperty("Signature");
             windowInfo = propriedades.getProperty("WindowInfo");
             lvwindowInfo = propriedades.getProperty("LVWindowInfo");
