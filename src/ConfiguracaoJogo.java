@@ -126,4 +126,26 @@ public class ConfiguracaoJogo {
 
         return instancia;
     }
+    public void imprimirConfiguracoes() {
+        System.out.println("AppId=" + appId);
+        System.out.println("UserName=" + userName);
+        System.out.println("Language=" + language);
+        // Continue imprimindo as demais propriedades.
+
+        System.out.println("Offline=" + offline);
+        System.out.println("AutoDLC=" + autoDLC);
+        System.out.println("BuildId=" + buildId);
+
+        System.out.println("DLCName=" + dlcName);
+        System.out.println("UpdateB=" + updateDB);
+        System.out.println("Signature=" + signature);
+
+        System.out.println("WindowInfo=" + windowInfo);
+        System.out.println("LVWindowInfo=" + lvwindowInfo);
+        System.out.println("ApplicationPath=" + applicationPath);
+
+        System.out.println("WorkingDirectory=" + workingDirectory);
+        System.out.println("WaitForExit=" + waitForExit);
+        System.out.println("NoOperation=" + noOperation);
+    }
 }
