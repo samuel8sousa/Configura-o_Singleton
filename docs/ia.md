@@ -1,0 +1,2 @@
+Analise o documento, veja as três primeiras atividades e explique como fazer cada uma.
+lembrando que é para explicar como fazer passo a passo e o pq de cada coisa, para que cada parte possa ser enviada por commit
